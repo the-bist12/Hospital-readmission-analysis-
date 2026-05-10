@@ -1,0 +1,11 @@
+Feature,Importance,Rank
+discharge_disposition_id,0.1385,1
+num_lab_procedures,0.0902,2
+med_per_day,0.0881,3
+num_medications,0.0762,4
+number_inpatient,0.0634,5
+age_numeric,0.0557,6
+time_in_hospital,0.0551,7
+total_prior_visits,0.0513,8
+diag_1_grouped,0.0476,9
+number_diagnoses,0.0413,10

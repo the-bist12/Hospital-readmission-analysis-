@@ -1,0 +1,9 @@
+admission_type,Total_Patients,Readmitted,Readmission_Rate
+Elective,13785,1141,8.28
+Emergency,35466,3252,9.17
+NULL,4516,450,9.96
+Newborn,9,1,11.11
+Not Available,3086,264,8.55
+Not Mapped,291,21,7.22
+Trauma,18,0,0.0
+Urgent,12802,1148,8.97
