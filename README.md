@@ -12,7 +12,7 @@
 ## 👋 What is this project about?
 
 Every year thousands of diabetic patients get discharged 
-from hospital — and then come back within 30 days. 
+from hospital and then come back within 30 days. 
 This is expensive for hospitals, stressful for patients, 
 and often preventable.
 
@@ -42,7 +42,7 @@ from the data:
 - Elderly patients (80-90 years old) are readmitted 
   at nearly double the rate of younger patients
 - Patients admitted for injury or trauma have the 
-  highest readmission rate — because diabetes makes 
+  highest readmission rate because diabetes makes 
   healing much harder
 - Patients NOT discharged home (sent to facilities) 
   have nearly double the readmission rate of patients 
@@ -91,7 +91,7 @@ from the data:
 I used AUC-ROC as the main metric rather than accuracy 
 because only 9% of patients were readmitted. A model 
 that just predicts "not readmitted" for everyone would 
-get 91% accuracy but be completely useless — AUC-ROC 
+get 91% accuracy but be completely useless AUC-ROC 
 tells the real story.
 
 ---
