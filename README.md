@@ -9,7 +9,7 @@
 
 ---
 
-## 👋 What is this project about?
+## What is this project about?
 
 Every year thousands of diabetic patients get discharged 
 from hospital and then come back within 30 days. 
@@ -33,7 +33,7 @@ engineering new features that the original paper never used.
 
 ---
 
-## 🔍 What did I actually find?
+## What did I actually find?
 
 Here are the most interesting things I discovered 
 from the data:
@@ -66,7 +66,7 @@ from the data:
 
 ---
 
-## 📊 Results at a glance
+## Results at a glance
 
 | What I measured | Result |
 |----------------|--------|
@@ -80,13 +80,13 @@ from the data:
 
 ---
 
-## 🤖 How did the models perform?
+## How did the models perform?
 
 | Model | Accuracy | AUC-ROC |
 |-------|----------|---------|
 | Logistic Regression | 63.65% | 0.6258 |
 | Random Forest | 73.75% | 0.6319 |
-| **XGBoost** 🏆 | **66.92%** | **0.6448** |
+| **XGBoost** | **66.92%** | **0.6448** |
 
 I used AUC-ROC as the main metric rather than accuracy 
 because only 9% of patients were readmitted. A model 
@@ -96,7 +96,7 @@ tells the real story.
 
 ---
 
-## 💡 How is this different from the original paper?
+## How is this different from the original paper?
 
 The original Strack et al. (2014) paper was groundbreaking 
 for its time but had limitations I tried to address:
@@ -111,7 +111,7 @@ for its time but had limitations I tried to address:
 
 ---
 
-## 🧹 How did I clean the data?
+## How did I clean the data?
 
 Raw data is messy — here is what I had to fix:
 101,766 records to start with
@@ -131,7 +131,7 @@ Solution: Group into 9 clinical categories
 Final result → 69,973 clean records ready for analysis
 ---
 
-## ⚙️ New features I created
+## New features I created
 
 I created 8 new features based on clinical knowledge 
 of what makes patients likely to be readmitted:
@@ -152,7 +152,7 @@ compared to using raw features alone.
 
 ---
 
-## 🏆 Most important features for prediction
+## Most important features for prediction
 
 After running Random Forest I found these are the 
 features that matter most:
@@ -161,20 +161,20 @@ features that matter most:
 |------|---------|---------------|
 | 1 | Discharge destination | Where you go after hospital |
 | 2 | Lab procedures | How many tests were done |
-| 3 | Medications per day ⭐ | My engineered feature! |
+| 3 | Medications per day | My engineered feature! |
 | 4 | Total medications | How complex your treatment is |
 | 5 | Prior inpatient visits | Have you been here before? |
 | 6 | Age | Older = higher risk |
 | 7 | Time in hospital | How long you stayed |
-| 8 | Prior total visits ⭐ | My engineered feature! |
+| 8 | Prior total visits | My engineered feature! |
 | 9 | Primary diagnosis | Why you came in |
 | 10 | Number of diagnoses | How many conditions you have |
 
-⭐ = Features I created that were not in original data
+ Features I created that were not in original data
 
 ---
 
-## 📈 Charts and visualizations
+## Charts and visualizations
 
 I created 9 charts throughout this project:
 Chart 1 → Readmission distribution
@@ -198,7 +198,7 @@ Primary, secondary and tertiary diagnoses
 
 ---
 
-## 📊 Power BI Dashboard
+## Power BI Dashboard
 
 I also built an interactive 3-page dashboard in Power BI 
 so hospital managers can explore the data themselves:
@@ -218,7 +218,7 @@ XGBoost as recommended model
 
 ---
 
-## 🛠️ Tools I used
+## Tools I used
 
 Python          → Main programming language
 Pandas          → Data cleaning and manipulation
@@ -233,13 +233,13 @@ Git + GitHub    → Version control
 
 ---
 
-## 📥 How to run this project yourself
+## How to run this project yourself
 
 **Step 1 — Download the dataset:**
 
 The dataset is not included here due to file size.
 Download it free from Kaggle:
-🔗 https://www.kaggle.com/brandao/diabetes
+ https://www.kaggle.com/brandao/diabetes
 
 **Step 2 — Clone this repository:**
 ```bash
@@ -257,7 +257,7 @@ pip install seaborn matplotlib imbalanced-learn
 
 ---
 
-## 📖 Original Research Paper
+## Original Research Paper
 
 This project is based on and extends:
 
@@ -273,7 +273,7 @@ as `description.pdf`
 
 ---
 
-## 🌱 What I learned from this project
+## What I learned from this project
 
 This was my first end-to-end data science project 
 and it taught me:
@@ -288,7 +288,7 @@ and it taught me:
 
 ---
 
-## 🔮 What could be improved next
+## What could be improved next
 
 If I had more time I would:
 
@@ -301,7 +301,7 @@ If I had more time I would:
 
 ---
 
-## 👤 About me
+## About me
 
 Hi! I am Dinesh from Kathmandu, Nepal.
 I am learning data analytics and this is one of 
@@ -311,11 +311,11 @@ Learning, and Power BI.
 I built this project to demonstrate end-to-end 
 data science skills using real clinical data.
 
-🔗 GitHub: https://github.com/the-bist12
+GitHub: https://github.com/the-bist12
 
 ---
 
-## 📄 License
+## License
 
 This project is open source under MIT License.
 Dataset is under Creative Commons Attribution 4.0
